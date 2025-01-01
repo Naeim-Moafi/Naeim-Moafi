@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naeim Moafi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+            overflow: auto;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 2px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        section {
+            margin: 2px 0;
+        }
+
+        .projects-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .project {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: left;
+        }
+
+        footer {
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header> -->
+    <section>
+        <div class="container">
+            <h1>Hi, I'm Naeim</h1>
+            <p>Welcome to my GitHub page!</p>
+        </div>
+    </section>
+    <!-- </header> -->
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a software developer at International Institute of Molecular and cell biology (IIMCB) in Warsaw.
+                <br>
+            </p>
+            <p>I use my skills in programming to solve practical problems.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>SimRNA</h3>
+                    <p>
+                        SimRNA is a software for RNA folding simulation and RNA 3D structure
+prediction using coarse-grained representation, knowledge-based potential,
+and Monte Carlo sampling method.
+<br>
+<strong> My duties</strong> in this project were to add additional features to the program,
+such as new types of restraints, comparative modeling with more than one
+template, modified nucleotides, parallel isothermal calculations,
+compatibility with mmCIF files, and to generate restraints for noncanonical
+base pairs using deep learning.
+                    </p>
+                    
+                </div>
+                <div class="project">
+                    <h3>SimDNA</h3>
+                    <p>SimDNA is a software for DNA folding simulation and DNA 3D structure
+                        prediction using coarse-grained representation, knowledge-based potential,
+                        and Monte Carlo sampling method.
+                        <br>
+                        <strong> My duties</strong> My duties in this project included developing the software from the ground up, 
+                        based on the latest version of SimRNA. I prepared the dataset, calculated the scoring function, wrote the code, 
+                        and conducted a small benchmark for the beta version of the software.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer> -->
+        <section>
+            <div class="container">
+                <p>&copy; 2025 Naeim Moaafinejad. Made with ❤️ for the community.</p>
+                <ul class="social-links">
+                    <a href="https://github.com/Naeim-Moafi" target="_blank">GitHub</a> | 
+                    <a href="https://www.linkedin.com/in/naeim-moafinejad-8b193a199/" target="_blank">LinkedIn</a>
+                </ul>
+            </div>
+        </section>
+    <!-- </footer> -->
+</body>
+</html>
